@@ -1,0 +1,144 @@
+@media screen and (max-width: 1000px) {
+
+    header .menu-desktop,
+    header .btn-contato {
+        display: none;
+    }
+    header .btn-menu-mob{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 880px) {
+
+    /* inicio */
+    .inicio-site .txt-inicio h1 {
+        font-size: 3em;
+        line-height: 50px;
+        font-weight: 500;
+        background-image: linear-gradient(30deg, #9c18d4, #b42072, #f20505, #d92b4b);
+        text-align: center;
+    }
+
+    .inicio-site .txt-inicio p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .inicio-site .txt-inicio button {
+        display: none;
+    }
+
+    /* fim inicio */
+
+    /* estilo vantagens */
+    .vantagens .itens-container {
+        flex-direction: column;
+    }
+
+    .vantagens .itens-container .img-itens img {
+        max-width: 350px;
+    }
+
+    .vantagens .itens-container .txt-container p {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .vantagens .itens-container .txt-container h3 {
+        font-size: 2.2em;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .vantagens .itens-container .item-1 {
+        order: 1;
+    }
+
+    .vantagens .itens-container .item-2 {
+        order: 0;
+    }
+
+    /*fim-ESTILO-VANTAGENS*/
+    /* inicio botao-contato */
+
+    section.contato .interface {
+        padding: 0px 8%;
+    }
+
+    .txt-contato,
+    .icons-contato {
+        display: block;
+        width: 100%;
+    }
+
+    .contato .txt-contato h3 {
+        font-size: 2em;
+        line-height: 35px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+
+    .contato .txt-contato p {
+        font-size: 18px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .contato .icons-contato button {
+        width: 100%;
+
+    }
+
+    /*fim-ESTILOS BOTAO CONTATO*/
+
+    /*ESTILO PROGRAMAÇAO*/
+
+    .programacao h3 {
+        font-size: 2.2em;
+        line-height: 40px;
+    }
+
+    .programacao p {
+        font-size: 16px;
+    }
+
+    /*fim-ESTILO PROGRAMAÇAO*/
+
+    /*ESTILO COMO FUNCIONA */
+    .txt-funciona,
+    .instrucoes {
+        display: block;
+        width: 100%;
+    }
+
+    .como-funciona .txt-funciona {
+        position: static;
+    }
+
+    .como-funciona .txt-funciona h3 {
+        font-size: 2.5em;
+        line-height: 50px;
+    }
+
+    .instrucoes .instru-box {
+        text-align: center;
+    }
+
+    .instrucoes .instru-box img {
+        max-width: 100px;
+    }
+
+    /* fim-ESTILO COMO FUNCIONA */
+
+    /* footer */
+
+    footer .bot-footer p {
+        color: #fff;
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+    /* ESTILO FOOTER */
+}
